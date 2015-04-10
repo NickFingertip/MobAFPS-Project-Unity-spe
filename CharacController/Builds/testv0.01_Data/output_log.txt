@@ -16,7 +16,7 @@ Platform assembly: C:\Users\EnkiBye\Documents\MobAFPS-Project-Unity-spe\CharacCo
 Loading C:\Users\EnkiBye\Documents\MobAFPS-Project-Unity-spe\CharacController\Builds\testv0.01_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\EnkiBye\Documents\MobAFPS-Project-Unity-spe\CharacController\Builds\testv0.01_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading C:\Users\EnkiBye\Documents\MobAFPS-Project-Unity-spe\CharacController\Builds\testv0.01_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-- Completed reload, in  0.223 seconds
+- Completed reload, in  0.180 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -24,8 +24,8 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 Platform assembly: C:\Users\EnkiBye\Documents\MobAFPS-Project-Unity-spe\CharacController\Builds\testv0.01_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\EnkiBye\Documents\MobAFPS-Project-Unity-spe\CharacController\Builds\testv0.01_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1f2c -> priority: 1 
-  Thread -> id: 20f0 -> priority: 1 
+  Thread -> id: dd8 -> priority: 1 
+  Thread -> id: 2018 -> priority: 1 
 Can't join random room!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)

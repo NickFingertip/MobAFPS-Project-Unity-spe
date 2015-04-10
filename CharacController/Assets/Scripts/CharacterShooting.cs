@@ -11,7 +11,8 @@ public class CharacterShooting : MonoBehaviour {
 
 		for(int i = 0; i < 30; i++){
 			GameObject newBall ;
-			newBall = Instantiate(fireBall) as GameObject;
+			//newBall = Instantiate(fireBall) as GameObject;
+			newBall = PhotonNetwork.Instantiate("FireBall", Vector3.zero, Quaternion.identity, 0) as GameObject;
 			ballTable[i] = newBall;
 			newBall.SetActive(false);
 		}
