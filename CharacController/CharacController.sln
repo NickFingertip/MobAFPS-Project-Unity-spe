@@ -29,9 +29,13 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																			GlobalSection(MonoDevelopProperties) = preSolution
 =======
 											GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> Enki
+=======
+												GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> Enki
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0

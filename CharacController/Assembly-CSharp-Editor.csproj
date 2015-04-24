@@ -70,6 +70,9 @@
  <Reference Include="Photon3Unity3D">
  <HintPath>C:/Users/Ben/Documents/MobAFPS-Project-Unity-spe/CharacController/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/EnkiBye/Documents/MobAFPS-Project-Unity-spe/CharacController/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -98,7 +101,11 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
+<<<<<<< HEAD
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+=======
+ <HintPath>C:/Program Files/Unity5/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+>>>>>>> Enki
  </Reference>
   </ItemGroup>
   <ItemGroup>
