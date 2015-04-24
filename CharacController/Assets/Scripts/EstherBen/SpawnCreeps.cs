@@ -4,6 +4,9 @@ using System.Collections;
 public class SpawnCreeps : MonoBehaviour 
 {
 
+	public bool _Blue;
+
+
 	//variables de spawning
 	public GameObject _creepPrefab;
 	public float _spawnRate = 1;
@@ -41,7 +44,14 @@ public class SpawnCreeps : MonoBehaviour
 		if (Time.time > _nextSpawn && _creepCount < _CreepWave) 
 		{
 			_nextSpawn = Time.time + _spawnRate;
-			_creep = Instantiate(_creepPrefab, transform.position, transform.rotation) as GameObject;
+			if (_Blue)
+			{
+				_creep = PhotonNetwork.Instantiate("CreepBlue", transform.position, transform.rotation, 0) as GameObject;
+			}
+			else
+			{
+				_creep = PhotonNetwork.Instantiate("CreepRed", transform.position, transform.rotation, 0) as GameObject;
+			}
 			_waveManager.GetComponent<WaveManager>()._whoDoIFollow.Add(_creep);
 			_creepCount++;
 		}
